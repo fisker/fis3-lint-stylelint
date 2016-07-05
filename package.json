@@ -1,0 +1,28 @@
+{
+  "name": "fis3-lint-stylelint",
+  "version": "0.0.8",
+  "description": "a css linter plugin of fis3 based on stylelint",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fisker/fis3-lint-stylelint.git"
+  },
+  "keywords": [
+    "stylelint",
+    "lint",
+    "linter",
+    "html",
+    "fis3-lint-stylelint",
+    "fis",
+    "fis3"
+  ],
+  "author": "fisker Cheung",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint": "^6.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/fisker/fis3-lint-stylelint/issues"
+  },
+  "readmeFilename": "README.md"
+}
