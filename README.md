@@ -1,4 +1,4 @@
-# fis3-lint-stylehint
+# fis3-lint-stylelint
 a css/less/scss/sugarss linter plugin of fis3 based on eslint
 
 [![npm](https://img.shields.io/npm/v/fis3-lint-stylelint.svg?style=flat-square)](https://www.npmjs.com/package/fis3-lint-stylelint) 
@@ -51,7 +51,5 @@ for more info: [http://stylelint.io/user-guide/node-api/]
 
 ## links
 fis3: [http://fis.baidu.com/]
-
 stylelint: [http://stylelint.io/]
-
 stylefmt: [https://github.com/morishitter/stylefmt]

@@ -13,7 +13,7 @@ var log = (global.fis && fis.log) || console;
 var nodePath = 'node';
 var stylelintBin = path.normalize(path.join(__dirname, './bin/stylelint.js'));
 var stylefmtBin = path.normalize(path.join(__dirname, './bin/stylefmt.js'));
-var formatter = require('postcss-reporter/lib/formatter')({noPlugin: true});
+// var formatter = require('postcss-reporter/lib/formatter')({noPlugin: true});
 
 var syntax = {
   '.scss': 'scss',
@@ -54,9 +54,9 @@ module.exports = function(content, file, conf){
   console.log('stylelint:' + file.id);
 
   var config = assign({}, conf, {
-    extractStyleTagsFromHtml: false,
     formatter: 'string',
-    files: file.realpath
+    files: file.realpath,
+    extractStyleTagsFromHtml: false
   });
   delete config.filename;
   delete config.code;
