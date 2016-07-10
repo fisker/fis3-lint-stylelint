@@ -7,15 +7,14 @@ function printResult(data) {
 
 stylelint(config)
   .then(function(data) {
-    printResult({
-      "results": data.results
-    });
+    printResult(data);
   })
   .catch(function(err) {
     printResult({
-      "error": {
-        "code": err.code,
-        "message": err.message
+      error: {
+        code: err.code,
+        message: err.message,
+        stack: err.stack
       }
     });
   });
