@@ -1,3 +1,3 @@
 # fis3-lint-htmlhint
 
-coming soon
+文档稍后提供 配置参考 http://stylelint.io/user-guide/node-api/ Options参数

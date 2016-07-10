@@ -1,6 +1,6 @@
 {
   "name": "fis3-lint-stylelint",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "a css linter plugin of fis3 based on stylelint",
   "main": "index.js",
   "repository": {
@@ -19,7 +19,8 @@
   "author": "fisker Cheung",
   "license": "MIT",
   "dependencies": {
-    "stylelint": "^6.8.0"
+    "stylelint": "^6.8.0",
+    "lodash.assign": "^4.0.0"
   },
   "bugs": {
     "url": "https://github.com/fisker/fis3-lint-stylelint/issues"
