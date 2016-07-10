@@ -47,7 +47,8 @@ var stylelintConf = {
   extractStyleTagsFromHtml: // useless, will be overwrite
 }; 
 ```
-for more info: [http://stylelint.io/user-guide/node-api/]
+options: [http://stylelint.io/user-guide/node-api/#options]
+rules: [http://stylelint.io/user-guide/rules/]
 
 ## links
 fis3: [http://fis.baidu.com/]
