@@ -18,6 +18,7 @@ fis.match('*.{css,scss,less,sss}}', {
   lint: fis.plugin('stylelint', stylelintConf)
 });
 ```
+
 ### options
 
 ```
@@ -47,6 +48,7 @@ var stylelintConf = {
 }; 
 ```
 options: [http://stylelint.io/user-guide/node-api/#options]
+
 rules: [http://stylelint.io/user-guide/rules/]
 
 ## links
