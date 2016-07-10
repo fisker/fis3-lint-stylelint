@@ -17,7 +17,6 @@ var stylelintConf = {};
 fis.match('*.{css,scss,less,sss}}', {
   lint: fis.plugin('stylelint', stylelintConf)
 });
-
 ```
 ### options
 
