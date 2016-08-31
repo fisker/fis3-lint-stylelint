@@ -21,7 +21,7 @@
   "dependencies": {
     "lodash.assign": "^4.2.0",
     "postcss": "^5.1.2",
-    "stylelint": "^6.9.0", // 7.0+ not support node 0.12.x
+    "stylelint": "^6.9.0",
     "stylefmt": "^4.2.3",
     "postcss-reporter": "^1.4.1"
   },
