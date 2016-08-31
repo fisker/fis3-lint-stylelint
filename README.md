@@ -44,7 +44,6 @@ var stylelintConf = {
   ignorePath:
   syntax: // if not set, will fix by file ext 
           // rules: .scss => scss, .less => less, .sss =>sugarss
-  extractStyleTagsFromHtml: // useless, will be overwrite
 }; 
 ```
 options: [http://stylelint.io/user-guide/node-api/#options]
