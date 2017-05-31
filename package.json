@@ -1,6 +1,6 @@
 {
   "name": "fis3-lint-stylelint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a css linter plugin of fis3 based on stylelint",
   "main": "index.js",
   "repository": {
@@ -21,9 +21,9 @@
   "dependencies": {
     "es6-shim": "^0.35.3",
     "promise-synchronizer": "^0.1.1",
-    "postcss": "^5.1.2",
-    "stylelint": "^7.8.0",
-    "stylefmt": "^4.2.3"
+    "postcss": "^6.0.1",
+    "stylelint": "^7.10.1",
+    "stylefmt": "^6.0.0"
   },
   "bugs": {
     "url": "https://github.com/fisker/fis3-lint-stylelint/issues"
