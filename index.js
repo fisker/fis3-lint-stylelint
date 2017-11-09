@@ -3,7 +3,7 @@
  * fisker Cheung<lionkay@gmail.com>
  */
 require('es6-shim')
-var promiseSynchronizer = require('promise-synchronizer')
+var sync = require('promise-synchronizer')
 var log = (global.fis && fis.log) || console
 var postcss = require('postcss')
 var stylelint = require('stylelint')
@@ -37,7 +37,7 @@ module.exports = function(content, file, conf) {
 
   if (config.fix) {
     try {
-      promiseSynchronizer(
+      sync(
         postcss([stylefmt])
           .process(content, config)
           .then(function(result) {
@@ -91,7 +91,7 @@ module.exports = function(content, file, conf) {
     })
 
   try {
-    return promiseSynchronizer(promise)
+    return sync(promise)
   } catch (err) {
     log.warn('[%s] lint failed with %s: \n\n %s', file.id, 'error', err)
     process.exit(1)

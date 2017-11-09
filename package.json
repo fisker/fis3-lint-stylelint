@@ -1,6 +1,6 @@
 {
   "name": "fis3-lint-stylelint",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "a css linter plugin of fis3 based on stylelint",
   "main": "index.js",
   "repository": {
@@ -21,7 +21,7 @@
   "dependencies": {
     "es6-shim": "^0.35.3",
     "postcss": "^6.0.1",
-    "promise-synchronizer": "^1.0.1",
+    "promise-synchronizer": "^1.0.5",
     "stylefmt": "^6.0.0",
     "stylelint": "^8.0.0"
   },
@@ -31,5 +31,11 @@
   "scripts": {
     "release": "npm --registry=https://registry.npmjs.org/ publish"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "package.json"
+  ]
 }
