@@ -4,10 +4,10 @@
  */
 require('es6-shim')
 var sync = require('promise-synchronizer')
-var log = (global.fis && fis.log) || console
 var postcss = require('postcss')
 var stylelint = require('stylelint')
 var stylefmt = require('stylefmt')
+var log = global.fis.log
 
 var syntax = {
   '.scss': 'scss',
@@ -19,8 +19,6 @@ module.exports = function(content, file, conf) {
   if (!content) {
     return
   }
-
-  // console.log('stylelint:' + file.id);
 
   var config = Object.assign({}, conf, {
     formatter: 'string',
