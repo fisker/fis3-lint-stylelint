@@ -1,3 +1,5 @@
+# [Deprecated] see https://github.com/fisker/fis3-plugins
+
 # fis3-lint-stylelint
 a css/less/scss/sugarss linter plugin of fis3 based on eslint
 
